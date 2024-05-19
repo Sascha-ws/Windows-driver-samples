@@ -1,0 +1,45 @@
+
+?
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Platform("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BIOS", "PLATFORM\NDIS6\SDIO\sdio.vcxproj", "{105EA485-B9B6-48AE-B8B0-96BBEA575973}"
+	PlatformSection(PlatformDependencies) = postPlatform
+		{956B060D-1055-4584-9CF4-9FE14C428545} = {956B060D-1055-4584-9CF4-9FE14C428545}
+		{C0A51792-1338-4294-ADAA-EDC4EE30CF05} = {C0A51792-1338-4294-ADAA-EDC4EE30CF05}
+	EndPlatformSection
+EndPlatform
+Platform("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cmd", "COMMON\common.vcxproj", "{956B060D-1055-4584-9CF4-9FE14C428545}"
+EndPlatform
+Platform("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NtfsCmd", "PLATFORM\NdisComm\NdisComm.vcxproj", "{C0A51792-1338-4294-ADAA-EDC4EE30CF05}"
+EndPlatform
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		diagnose|x64 = diagnose|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(PlatformConfigurationPlatforms) = postSolution
+		{105EA485-B9B6-48AE-B8B0-96BBEA575973}.diagnose|x64.ActiveCfg = diagnose|x64
+		{105EA485-B9B6-48AE-B8B0-96BBEA575973}.diagnose|x64.Build.0 = diagnose|x64
+		{105EA485-B9B6-48AE-B8B0-96BBEA575973}.diagnose|x64.Deploy.0 = diagnose|x64
+		{105EA485-B9B6-48AE-B8B0-96BBEA575973}.Release|x64.ActiveCfg = Release|x64
+		{105EA485-B9B6-48AE-B8B0-96BBEA575973}.Release|x64.Build.0 = Release|x64
+		{105EA485-B9B6-48AE-B8B0-96BBEA575973}.Release|x64.Deploy.0 = Release|x64
+		{956B060D-1055-4584-9CF4-9FE14C428545}.diagnose|x64.ActiveCfg = diagnose|x64
+		{956B060D-1055-4584-9CF4-9FE14C428545}.diagnose|x64.Build.0 = diagnose|x64
+		{956B060D-1055-4584-9CF4-9FE14C428545}.diagnose|x64.Deploy.0 = diagnose|x64
+		{956B060D-1055-4584-9CF4-9FE14C428545}.Release|x64.ActiveCfg = Release|x64
+		{956B060D-1055-4584-9CF4-9FE14C428545}.Release|x64.Build.0 = Release|x64
+		{956B060D-1055-4584-9CF4-9FE14C428545}.Release|x64.Deploy.0 = Release|x64
+		{C0A51792-1338-4294-ADAA-EDC4EE30CF05}.diagnose|x64.ActiveCfg = diagnose|x64
+		{C0A51792-1338-4294-ADAA-EDC4EE30CF05}.diagnose|x64.Build.0 = diagnose|x64
+		{C0A51792-1338-4294-ADAA-EDC4EE30CF05}.diagnose|x64.Deploy.0 = diagnose|x64
+		{C0A51792-1338-4294-ADAA-EDC4EE30CF05}.Release|x64.ActiveCfg = Release|x64
+		{C0A51792-1338-4294-ADAA-EDC4EE30CF05}.Release|x64.Build.0 = Release|x64
+		{C0A51792-1338-4294-ADAA-EDC4EE30CF05}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = TRUE
+	EndGlobalSection
+EndGlobal
